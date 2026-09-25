@@ -1,0 +1,43 @@
+﻿<Page x:Class="parkin_ru1.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Главное меню">
+    <Grid Background="#F0F4F8">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+
+            
+            <TextBlock Text="Вариант №4"
+                       FontSize="48" FontWeight="Bold"
+                       Foreground="#2C3E50"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,40"/>
+
+            
+            <Button Content="Задача 9.1 — Работа с числами"
+                    Width="320" Height="45"
+                    Margin="0,8" FontSize="15"
+                    Click="BtnTask1_Click"/>
+
+            <Button Content="Задача 9.2 — Работа со строками"
+                    Width="320" Height="45"
+                    Margin="0,8" FontSize="15"
+                    Click="BtnTask2_Click"/>
+
+            <Button Content="Задача 9.3 — Поиск серий в массиве"
+                    Width="320" Height="45"
+                    Margin="0,8" FontSize="15"
+                    Click="BtnTask3_Click"/>
+
+            <Button Content="Задача 9.4 — Перестановка в массиве"
+                    Width="320" Height="45"
+                    Margin="0,8" FontSize="15"
+                    Click="BtnTask4_Click"/>
+
+            <Button Content="Задача 9.5 — Сортировка двумерного массива"
+                    Width="320" Height="45"
+                    Margin="0,8" FontSize="15"
+                    Click="BtnTask5_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Page>
