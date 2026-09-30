@@ -23,7 +23,7 @@
             <Button Content="Сгенерировать и выполнить" Width="200" Height="32"
                     Margin="15,0,0,0" Click="BtnGenerateAndExecute_Click"/>
         </StackPanel>
-
+        <!-- Изменения №2 -->
         <TextBlock Grid.Row="2" Text="Результат:" Foreground="SeaGreen" Margin="0,5,0,5"/>
         <TextBox Grid.Row="3" Name="txtResult" IsReadOnly="True"
                  TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
